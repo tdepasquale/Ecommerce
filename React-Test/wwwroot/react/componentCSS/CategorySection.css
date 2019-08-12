@@ -1,0 +1,44 @@
+﻿.normal-size {
+    height: 35vh;
+    grid-area: span 1 / span 2;
+}
+
+.large-size {
+    height: 45vh;
+    grid-area: span 1 / span 3;
+}
+
+.content {
+    height: 100%;
+    background: center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    transition-duration: 6s;
+}
+
+.content:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.item{
+    overflow:hidden;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    padding: 1rem;
+    background-color: white;
+    opacity: 0.7;
+    transition-duration: 1s;
+    border: 1px solid black;
+}
+
+.content:hover .textBox{
+    opacity: 0.9;
+}
