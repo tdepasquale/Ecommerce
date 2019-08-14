@@ -1,0 +1,32 @@
+﻿.image{
+    background: center center/cover;
+    height: 45vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.price{
+    float:right;
+}
+
+.name, .price{
+    font-size: 2rem;
+    margin: 0 0.1rem;
+}
+
+.collection-item:hover .add-to-cart-button{
+    display:block;
+}
+
+.add-to-cart-button{
+    display:none;
+    margin-top: 30vh;
+    padding: 1.5rem 20%;
+    font-size:1.5rem;
+    background-color:rgba(255, 255, 255, 0.7);
+}
+
+.button-text{
+    font-weight: 900;
+}

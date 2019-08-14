@@ -2,12 +2,12 @@
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Routing } from './components/routing.component.js';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 
 
 ReactDOM.render(
-    <BrowserRouter>
+    <Router>
         <Routing />
-    </BrowserRouter>,
+    </Router>,
     document.getElementById('root')
 );

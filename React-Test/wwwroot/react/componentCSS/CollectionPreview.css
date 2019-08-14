@@ -1,0 +1,9 @@
+﻿.preview{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.title{
+    margin: 2rem 0;
+}
